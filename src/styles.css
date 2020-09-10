@@ -1,0 +1,51 @@
+* {
+  margin: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#root {
+  background-color: #30332e;
+  color: white;
+  height: 100vh;
+}
+
+.numContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h1 {
+  font-size: 25px;
+}
+
+.leftNums {
+  padding: 25px;
+}
+
+.rightNums {
+  padding: 25px;
+}
+
+input {
+  width: 10ch;
+  margin: 5px;
+  text-align: center;
+}
